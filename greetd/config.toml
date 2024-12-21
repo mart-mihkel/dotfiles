@@ -2,9 +2,12 @@
 vt = 1
 
 [default_session]
-command = "bash --norc"
+<<<<<<< HEAD
+command = "bash"
 user = "mart"
 
 [initial_session]
-command = "startx"
+=======
+>>>>>>> 6e839dc (rice🍚)
+command = "hyprland"
 user = "mart"
