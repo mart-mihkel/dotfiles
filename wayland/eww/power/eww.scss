@@ -1,0 +1,52 @@
+$base: #ffffff;
+$text: #000000;
+$other: #8e8e8e;
+$gray: #6b6b6b;
+
+$red: #ac4242;
+$green: #90a959;
+$blue: #6a9fb5;
+$cyan: #75b5aa;
+
+* {
+  all: unset;
+}
+
+.power {
+  font-family: "JetbrainsMono Nerd Font";
+  font-weight: bold;
+  font-size: 2rem;
+
+  color: $text;
+  background-color: $base;
+
+  opacity: 0.9;
+
+  border: 2px solid;
+  border-color: $gray;
+  border-radius: 8px;
+}
+
+.shutdown,
+.reboot,
+.suspend,
+.lock,
+.cancel {
+  padding: 0.25rem 1rem;
+}
+
+.shutdown.clicked {
+  color: $red;
+}
+
+.reboot.clicked {
+  color: $green;
+}
+
+.suspend.clicked {
+  color: $blue;
+}
+
+.lock.clicked {
+  color: $cyan;
+}
