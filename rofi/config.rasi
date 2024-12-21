@@ -24,13 +24,14 @@ configuration {
 }
 
 window {
-  height: 20em;
-  width: 12em;
+  height: 32em;
+  width: 16em;
 
-  padding: 0;
+  padding: 4;
   margin: 0;
 
-  border: 1px;
+  border: 1;
+  border-radius: 8;
 }
 
 inputbar {
@@ -38,15 +39,18 @@ inputbar {
 }
 
 entry {
-  placeholder: "";
+  placeholder: "󰍉";
 }
 
 listview {
   scrollbar: false;
 
   padding: 0;
+  border: 0;
+}
 
-  border: 1 0 0 0;
+element {
+  padding: 2;
 }
 
 element alternate normal {
@@ -54,5 +58,7 @@ element alternate normal {
 }
 
 element selected normal {
-  text-color: #ffffff;
+  text-color: #000000;
+  background-color: #d8d8d8;
+  border-radius: 4;
 }
