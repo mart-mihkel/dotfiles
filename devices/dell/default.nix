@@ -21,6 +21,7 @@
   };
 
   programs.hyprland.enable = true;
+  security.pam.services.hyprlock = {};
 
   system.stateVersion = "24.05";
 }

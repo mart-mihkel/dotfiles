@@ -1,8 +1,7 @@
 {
-  security.pam.services.hyprlock = {};
-
   services = {
     pcscd.enable = true;
+
     auto-cpufreq.enable = true;
 
     pipewire = {
